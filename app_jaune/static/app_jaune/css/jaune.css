@@ -1,3 +1,29 @@
 .jaune {
-    background-color: #F2CB05;
+    background-color: #ffd300;
+}
+
+.jaune-clair {
+    background-color: #ffe566;
+}
+
+.home-welcome {
+    background-color: #ffe566;
+    min-height: 70%;
+    flex: 0 1 auto;
+}
+
+.tico {
+    font-size: 10vh;
+    font-weight: bold;
+    color: #043B6B;
+}
+
+.bleu {
+  background-color: #043B6B;  
+  color: white;
+  font-weight: bold;
+}
+
+.bark {
+    min-width: 2vw;
 }

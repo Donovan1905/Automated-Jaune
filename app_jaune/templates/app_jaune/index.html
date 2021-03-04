@@ -1,5 +1,19 @@
 {% extends 'app_jaune/base.html' %}
 
 {% block content %}
-    Il est cool ce lit chinois !!!
+<div class="d-flex justify-content-center jaune-clair">
+    <h1 class="tico text-center">Laurent BTM</h1>
+</div>
+
+<div class="range mt-5">
+    <div class="d-flex justify-content-center flex-column mb-5 mx-2">
+        <input type="range" class="form-range m-1" min="10" max="60" id="customRange2"/>
+
+        <select class="form-control m-1 bark">
+            <option>Default select</option>
+          </select>
+
+          <button type="submit" class="btn bleu m-1">Chef un ptit verre on a soif !</button>
+        </div>
+</div>
 {% endblock content %}  
